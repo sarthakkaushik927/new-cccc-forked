@@ -693,14 +693,13 @@ import {
 import { Toaster, toast } from "react-hot-toast";
 
 import SuccessTerminal from "./Success";
-// --- Configuration & Branch Ingestion ---
 const BRANCH_MAP = {
   10: "CSE(core)", 11: "CSIT", 12: "CS", 13: "IT",
   164: "AIML", 154: "CSE(DS)", 153: "CSE(AIML)", 169: "CSE(H)",
   20: "EN", 31: "ECE", 40: "ME", "00": "CE",
 };
 
-// --- Background Component: Reactive Neural Network ---
+
 const NeuralLinkBackground = () => {
   const canvasRef = useRef(null);
   useEffect(() => {
@@ -753,7 +752,7 @@ const NeuralLinkBackground = () => {
   return <canvas ref={canvasRef} className="fixed inset-0 z-0 bg-[#020202]" />;
 };
 
-// --- Decoding Header Animation ---
+
 const GlitchText = ({ text, className }) => {
   const [display, setDisplay] = useState(text);
   const chars = "!@#$%^&*()_+{}:<>?|1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -835,7 +834,7 @@ const SuccessDisplay = ({ userData }) => (
   </motion.div>
 );
 
-// --- Professional Input Component ---
+
 const KineticInput = ({ icon: Icon, label, error, ...props }) => {
   const [isFocused, setIsFocused] = useState(false);
   return (
@@ -964,15 +963,15 @@ export default function App() {
           const token = await window.grecaptcha.execute('6LctyZYrAAAAANH0NNM_BRUiyRcyCoUMKhQ-4kis', { action: 'submit' });
           if (!token) throw new Error("RECAPTCHA_FAIL");
 
-          // Proper API Call Logic
+          //  API Call Logic
           const submissionData = new FormData();
           Object.entries({ ...formData, recaptchaValue: token }).forEach(([k, v]) => submissionData.append(k, v));
 
           const response = await fetch("https://drive-zzhh.onrender.com/api/register/Drive", {
             method: "POST",
-            body: submissionData, // Using FormData as per original logic
+            body: submissionData, 
             headers: {
-               // Axios/Fetch usually handles boundaries for FormData automatically
+            
                "Accept": "application/json"
             }
           });
