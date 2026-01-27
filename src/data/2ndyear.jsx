@@ -10,7 +10,7 @@ import Suhani from "../2024-2028batchimg/Suhani.jpg";
 import Vaishnavi from "../2024-2028batchimg/Vaishnavikrishnan_.jpg";
 import Arpan from "../2024-2028batchimg/Arpan.jpg";
 import Aryan from "../2024-2028batchimg/AryanSingh.jpg";
-import Shaurya from "../2024-2028batchimg/ShauryaVerma .jpg";
+import Shaurya from "../2024-2028batchimg/ShauryaVerma.jpg";
 import Krish from "../2024-2028batchimg/Krish.webp";
 import Sanjana from "../2024-2028batchimg/Sanjana.jpeg";
 
