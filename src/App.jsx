@@ -21,6 +21,7 @@ import { Techbuzz } from "./components/ETechbuzz";
 import { Contact } from "./components/Contact";
 import { Ereacticons } from "./components/Ereacticons";
 import {ECloud} from "./components/ECloud";
+import Register4 from "./components/Register4";
 import Open from "./components/ui/Open";
 import Success from "./components/Success";
 
@@ -46,7 +47,8 @@ const App = () => {
             <Route path="/Events" element={<Events />} />
             <Route path="/Team" element={<TeamCards />} />
             <Route path="/Contact" element={<Contact />} />
-            <Route path="/Register" element={<Register />} />
+            {/* <Route path="/Register" element={<Register />} /> */}
+            <Route path="/Register" element={<Register4 />} />
             <Route path="/Devclash" element={<Edevclash />} />
             <Route path="/Ereacticons" element={<Ereacticons />} />
             <Route path="/ECloud" element={<ECloud />} />
