@@ -10,12 +10,11 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
 
 // 1. Removed SplashScreen Import
-import { SplashScreen } from './SplashScreen';
-import { FormInput, FormSelect } from './FormComponents';
-import GlowingCursor from './GlowingCursor';
-import { InteractiveBackground } from './InteractiveBackground';
-import { LeftSideContent } from './LeftSideContent';
-import { flickerStyles } from './AnimationStyles';  
+import { FormInput, FormSelect } from '../Resgistration/FormComponents';
+import GlowingCursor from '../Resgistration/GlowingCursor';
+import { InteractiveBackground } from '../Resgistration/InteractiveBackground';
+import { LeftSideContent } from '../Resgistration/LeftSideContent';
+import { flickerStyles } from '../Resgistration/AnimationStyles'; 
 
 const TiltCard = ({ children, className = "" }) => {
   const x = useMotionValue(0);
