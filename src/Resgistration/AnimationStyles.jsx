@@ -41,7 +41,7 @@ export const flickerStyles = `
     /* --- RETURN TO STEADY ON --- */
     100% { 
       border-color: rgba(139, 92, 246, 0.8); 
-      box-shadow: 0 0 25px rgba(139, 92, 246, 0.45); 
+      box-shadow: 0 0 35px rgba(139, 92, 246, 0.55); 
     }
   }
 

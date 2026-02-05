@@ -34,7 +34,7 @@ const baseClasses = `
   border border-[#8b5cf6]/40 
   rounded-[12px] text-white
   animate-flicker-card
-  shadow-[0_0_265px_rgba(139,92,246,0.5)]
+  
   
   focus:animate-none 
   focus:outline-none 
@@ -42,7 +42,7 @@ const baseClasses = `
   /* UPDATED: Focus State Colors (Violet/Fuchsia Glow) */
   focus:bg-[#8b5cf6]/30 
   focus:border-[#a78bfa] 
-  focus:shadow-[0_0_155px_rgba(139,92,246,0.8)] 
+  focus:shadow-[0_0_55px_rgba(139,92,246,0.9)] 
   
   transition-all duration-400 ease-out relative z-20 
 `;
