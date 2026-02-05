@@ -72,3 +72,20 @@ const App = () => {
 };
 
 export default App;
+
+// const RouteWithTitle = () => {
+//   const location = useLocation();
+
+//   useEffect(() => {
+//     if (location.pathname === "/Register") {
+//       document.title = "404 not found";
+//     } else {
+//       document.title = "Cloud Computing Cell - AKGEC";
+//     }
+//   }, [location]);
+
+//   return null;
+// };
+
+// export default App;
+// export default App;
